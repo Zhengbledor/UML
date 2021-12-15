@@ -1,1 +1,659 @@
-<mxfile host="app.diagrams.net" modified="2021-12-09T03:08:48.867Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" version="15.9.4" etag="uKx8ZBerKeSVCCwSxLN2" type="github"><diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">7VvZcuI4FP0aHpPywpZHIEt3TzpDN5lkXgUWoEG2GFmE0F/fV7a8KoCd4HZCqEpVrGtZtnSOro6OTcMeuM83HC3n35mDacMynOeGfdmwLNOybPgnI5sw0u2YYWDGiaMqJYER+YVV0FDRFXGwn6koGKOCLLPBCfM8PBGZGOKcrbPVpoxm77pEM6wFRhNE9egjccRc9cLqJPEvmMzm0Z3N9kV4xkVRZdUTf44ctk6F7KuGPeCMifDIfR5gKgcvGpfHr5tHerto33z74f+P/un/dX/3cBY2dl3mkrgLHHvi1U3/Wkyvvzw0//t3Obz+sTZueuNvZ+oS4wnRlRqvIeY+81SPxSYaRn9NXIo8KPWnzBMjdQYGoY8omXlwPIGnwxwCT5gLAgj01AnBlhCdzAl1btGGrWQffIEmi6jUnzNOfkGziMIpEwJwmgtFJqudqTGSV0LYgCjHPtQZRgNjxqFb5AtVZ8IoRUufjIMHllVcxGfE6zMhmBs1xFaegx1VipEOCoKzRcwdeX1BOBRscjTwc4qMCp4bzFws+AaqqLMx0zbR5FPldUJcs61i8zRp7a6aMGqyzOK249v9hMmFvBkMQnI/O3e/ZsH7ASKZ2yEKwHtI4L4cRj9NQzhIdTUJBeQsQVRTI+odcrFGUxhpkaIkxVOxlZD+Ek2IN7sN6lw2k8hP1VMZYnDtlAZkmBPHwV5AFoEECvkkGbJkxBPBULT68AcDNjDOW40WPNAAymZShj9ZnYsB84BXiAQEwkDWNZaEfYFaO6ftfmptsoiVRTZNpAykZfGz9EQzZ54k493KHUPaODYkd2SUuXCpOqwK75ZVM962hveVi4i8rOc4kKP9E+AHBbzTrRnwpga4hjAlgX5Qo2G+uLbugd8FIGVzEd73kg6XZ6bGCVvnhP0C/hSNMR0ynwjCZPs8rJvjRV1Z2zSaxVDdsfy/CdSWnrVXfDJHvkzcILsWMLzB0RHO58pANevOzW0N1ZFYObKbBVW/cVL9h1P9Zk712+1qVb+ZU/129/2q/s52ph6rbiyYdtqFafZedgBdDcsePL10byzjOywlR4fkQQVhabxr3wFcnAThwUEtqvKr0oOm7hd+hcRvXAEawVJrGfdMlj3OZGtHNqPTGqhZFcbduhO1qXttN1iuuCPsEg9xCfg9WmDdJP7o+FYFaf2SP3qAXdkYe05PvnCB0pgyqbb7EFJy3DTC4jWh0cq1Ry9nlz/szHA0dTAds/VVEugHATgRMaW02vYZbEvxfshgfzHDBXZz8ml3AvsSkBxTJMhT9r3TDm0+lMRNdLllZHW5ZdjZJsJOqqvSL3rKNhSOgtbQwax63fsbcjbFvs90uX7aYVa/w7TzO76iO8yOsZfEL2ww7WaBDWbnfWwwTd22HCGKVMb9hGtbPHk/zsbS1F1KDb3PvtMoD2vR/WNlWw3dpfxUiiVC7F1LFjOX6TuvlCx2riGrk3uWqiWLbjRue015EizVC5aW0c3QofCHMJa5Y5HZrlharQ/0IYzuo44Ex1h/efNZFEunML3ejWLRvdEBEcenOQ/qgJfHuXYL3NLtUkja4vg+W6sZ6No/frF0yxSUvVzFLWPAnBPgBwa88Icx1SGuG6oDGBNxhM5B3VjbrxRjh8NaNzQ1kD+9wVAe11ZBGVaVw2Dp3t8DQOQc4wJdHYrt2jOxbv/9vRLLlbQXevJd5a2cBydECyN6UXu+LWf9sWUw1uXMvdgXNOu3+tTY7nX6Iiz3Wn0KZ0mltK3RVA/0Rtcvfp8TE8bKNlHU9Ws19zS0xfXTGjrLv3HKtcOmUx9XYhxaunFonJ9HwCd0Dcy4VCLYk3bGypIL1/A+mixmAX8HjDIO5z2WGJDK7baK54RofqmfXKrHasQ/Pytu1J29kVERMf8YXLp5VhyrSD99VLAOM/ujb3L/OHS6Z0ahF3KBR1u9z5Qcz6Oqq+AiDn6s0XdjXcpFfyMxNAJs40rxdeLiMEyxsy5+lKTfwhUoJj+4DqsnP1u3r34D</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-15T03:43:03.817Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="lTFuFan4aqv2HEpvnKrL" version="15.9.4" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="2300" dy="2601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-23" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;fontFamily=Helvetica;fontSize=12;jumpStyle=none;shadow=0;rounded=1;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aEAMVWHlkjGo6CPWuQZ4-0" target="aEAMVWHlkjGo6CPWuQZ4-20">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="762.5" y="-150" as="sourcePoint" />
+            <mxPoint x="1122.5" y="-360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-0" value="LVContentController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=11;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="766.25" y="-360" width="282.5" height="250" as="geometry">
+            <mxRectangle x="320" y="290" width="100" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-1" value="&lt;font style=&quot;font-size: 12px&quot;&gt;- contentView:LVContentContainerView&lt;br&gt;- operateCallBack:OperatePauseAndPlayCallBack&lt;br&gt;- cpInfoListener:ICPToolBarInfoListgener&lt;br&gt;- loginCallBack:LoginManagerListener&lt;br&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;rounded=1;" vertex="1" parent="aEAMVWHlkjGo6CPWuQZ4-0">
+          <mxGeometry y="26" width="282.5" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-2" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;rounded=1;" vertex="1" parent="aEAMVWHlkjGo6CPWuQZ4-0">
+          <mxGeometry y="100" width="282.5" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-3" value="+ onControllerShowEvent(event:ControllerShowEvnet)&#xa;+ onLoadVideoEvent(event:LoadVideoEvent)&#xa;+ onPreparedEvent(event:PareparedEvent)&#xa;+ moreClick()&#xa;+ followClick()&#xa;- updateContent()&#xa;- hideContentView()&#xa;- delayHideContentView()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;rounded=1;" vertex="1" parent="aEAMVWHlkjGo6CPWuQZ4-0">
+          <mxGeometry y="108" width="282.5" height="142" as="geometry" />
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-4" value="竖版播放器全屏底部视频内容部分" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="772.5" y="-500" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-10" value="LVContentContainerView" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=11;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="450" y="-360" width="240" height="130" as="geometry">
+            <mxRectangle x="320" y="290" width="100" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-11" value="- btnClickListener:ClickListener" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;rounded=1;" vertex="1" parent="aEAMVWHlkjGo6CPWuQZ4-10">
+          <mxGeometry y="26" width="240" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-13" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;rounded=1;" vertex="1" parent="aEAMVWHlkjGo6CPWuQZ4-10">
+          <mxGeometry y="50" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-14" value="+ setContainerText(str:String)&lt;br&gt;+ setVodContent(str:String)&lt;br&gt;+ setCpContent(cpInfo:CPInfo)&lt;br&gt;+ setClickListener(listener:ClickListener)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;rounded=1;" vertex="1" parent="aEAMVWHlkjGo6CPWuQZ4-10">
+          <mxGeometry y="58" width="240" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-17" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=1;fontFamily=Helvetica;fontSize=12;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aEAMVWHlkjGo6CPWuQZ4-10" target="aEAMVWHlkjGo6CPWuQZ4-44">
+          <mxGeometry x="1" y="-180" width="160" relative="1" as="geometry">
+            <mxPoint x="622.5" y="-280" as="sourcePoint" />
+            <mxPoint x="570" y="-400" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-20" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ClickListner&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ moreClick()&lt;br&gt;+ followClick()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;labelBackgroundColor=none;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="475" y="-154" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-25" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=1;fontFamily=Helvetica;fontSize=12;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" target="aEAMVWHlkjGo6CPWuQZ4-41" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aEAMVWHlkjGo6CPWuQZ4-0">
+          <mxGeometry x="1" y="-180" width="160" relative="1" as="geometry">
+            <mxPoint x="960" y="-390" as="sourcePoint" />
+            <mxPoint x="892.5" y="-420" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-27" value="PlayerOperateHelper" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1147.5" y="-448" width="160" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-45" value="// 播放器播放暂停时做回调" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;rounded=1;" vertex="1" parent="aEAMVWHlkjGo6CPWuQZ4-27">
+          <mxGeometry y="26" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-31" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;OperatePauseAndPlayCallBack&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ operatePlay()&lt;br&gt;+ operatePause()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;labelBackgroundColor=none;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1132.5" y="-360" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-35" value="CPToolBarInfoManager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1147.5" y="-120" width="160" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-46" value="// CP点赞关注相关类" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;rounded=1;" vertex="1" parent="aEAMVWHlkjGo6CPWuQZ4-35">
+          <mxGeometry y="26" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-39" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;ICPToolBarInfoListener&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ onCpInfoChange(cpInfo:CPInfo)&lt;br&gt;+ onLikeInfoChange(likeInfo:LikeInfo)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;labelBackgroundColor=none;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1112.5" y="-250" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-41" value="UIController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="827.5" y="-448" width="160" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-44" value="ConstaintLayout" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="490" y="-448" width="160" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-47" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=1;fontFamily=Helvetica;fontSize=10;entryX=1;entryY=0.069;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aEAMVWHlkjGo6CPWuQZ4-1" target="aEAMVWHlkjGo6CPWuQZ4-14">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="762.5" y="-266" as="sourcePoint" />
+            <mxPoint x="1012.5" y="-330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-49" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=1;fontFamily=Helvetica;fontSize=10;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aEAMVWHlkjGo6CPWuQZ4-0" target="aEAMVWHlkjGo6CPWuQZ4-39">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1072.5" y="-257.0970464135021" as="sourcePoint" />
+            <mxPoint x="1132.5" y="-273.704641350211" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1072.5" y="-310" />
+              <mxPoint x="1072.5" y="-210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-48" value="" style="endArrow=open;endFill=1;endSize=12;rounded=1;fontFamily=Helvetica;fontSize=10;verticalAlign=middle;horizontal=1;html=1;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aEAMVWHlkjGo6CPWuQZ4-0" target="aEAMVWHlkjGo6CPWuQZ4-31">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1052.5" y="-300" as="sourcePoint" />
+            <mxPoint x="1142.5" y="-297" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1062.5" y="-310" />
+              <mxPoint x="1062.5" y="-310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-145" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jumpStyle=none;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontFamily=Helvetica;fontSize=14;endArrow=open;endFill=0;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aEAMVWHlkjGo6CPWuQZ4-53" target="aEAMVWHlkjGo6CPWuQZ4-144">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="832" y="870" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="832" y="900" />
+              <mxPoint x="832" y="900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-53" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;LargePanleRecycleViewImp&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ setClickListener(recyclerItemClickListener:RecyclerItemClickListener)&lt;br&gt;+ setEventHelper(playerFullViewEventHelper:PlayerFullViewEventHelper)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ setData(mPlayerInfo:II18NPlayerInfo)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ backToTop()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getView():View&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;labelBackgroundColor=none;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="636.25" y="728.5" width="400" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-63" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Abstract&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;LWBasePlayerRecyclerPanleView&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- mPlayerInfo:II18NPlayerInfo&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- itemClickListener:RecyclerItemClickListener&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- recyclerView:RecyclerView&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- baseRecyclerAdapter:PlayerBaseRecyclerPanelViewAdapter&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;text-align: center ; margin: 0px 0px 0px 4px&quot;&gt;// LargePanelRecyclerViewImp的实现&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ setClickListener(recyclerItemClickListener:RecyclerItemClickListener)&lt;br&gt;+ setEventHelper(playerFullViewEventHelper:PlayerFullViewEventHelper)&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ setData(mPlayerInfo:II18NPlayerInfo)&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ backToTop()&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ getView():View&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;labelBackgroundColor=none;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="334.5" y="347.25" width="400.5" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-64" value="RelativeLayout" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="454.75" y="237.25" width="160" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-65" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;fontFamily=Helvetica;fontSize=12;jumpStyle=none;shadow=0;rounded=1;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aEAMVWHlkjGo6CPWuQZ4-63" target="aEAMVWHlkjGo6CPWuQZ4-53">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="596.28" y="977.5600000000002" as="sourcePoint" />
+            <mxPoint x="697.53" y="832.501176470588" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="830" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-66" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=1;fontFamily=Helvetica;fontSize=12;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aEAMVWHlkjGo6CPWuQZ4-63" target="aEAMVWHlkjGo6CPWuQZ4-64">
+          <mxGeometry x="1" y="-180" width="160" relative="1" as="geometry">
+            <mxPoint x="472" y="-302.75" as="sourcePoint" />
+            <mxPoint x="472" y="-338.75" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-67" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Abstract&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;LVBasePlayerRecyclerPanleView&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- mPlayerInfo:II18NPlayerInfo&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- itemClickListener:RecyclerItemClickListener&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- recyclerView:RecyclerView&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- baseRecyclerAdapter:PlayerBaseRecyclerPanelViewAdapter&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;text-align: center ; margin: 0px 0px 0px 4px&quot;&gt;// LargePanelRecyclerViewImp的实现&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ setClickListener(recyclerItemClickListener:RecyclerItemClickListener)&lt;br&gt;+ setEventHelper(playerFullViewEventHelper:PlayerFullViewEventHelper)&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ setData(mPlayerInfo:II18NPlayerInfo)&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ backToTop()&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ getView():View&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;labelBackgroundColor=none;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="964.25" y="340" width="380.5" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-68" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;fontFamily=Helvetica;fontSize=12;jumpStyle=none;shadow=0;rounded=1;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aEAMVWHlkjGo6CPWuQZ4-67" target="aEAMVWHlkjGo6CPWuQZ4-53">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="788" y="992.5000000000002" as="sourcePoint" />
+            <mxPoint x="1297.5" y="791" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="830" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-69" value="LVSecondPagePanelView" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1054.5" y="227.5" width="200" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-70" value="ConstraintLayout" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1074.5" y="130" width="160" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-71" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=1;fontFamily=Helvetica;fontSize=12;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aEAMVWHlkjGo6CPWuQZ4-69" target="aEAMVWHlkjGo6CPWuQZ4-70">
+          <mxGeometry x="1" y="-180" width="160" relative="1" as="geometry">
+            <mxPoint x="454.75" y="349.9999999999998" as="sourcePoint" />
+            <mxPoint x="454.75" y="312" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-72" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=1;fontFamily=Helvetica;fontSize=12;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aEAMVWHlkjGo6CPWuQZ4-67" target="aEAMVWHlkjGo6CPWuQZ4-69">
+          <mxGeometry x="1" y="-180" width="160" relative="1" as="geometry">
+            <mxPoint x="1114.7499999999995" y="269.9999999999998" as="sourcePoint" />
+            <mxPoint x="1115.75" y="270" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-84" value="LWPlayerDefinitionPanleView" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=11;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="305.5" y="624.75" width="210" height="50" as="geometry">
+            <mxRectangle x="320" y="290" width="100" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-88" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=1;fontFamily=Helvetica;fontSize=12;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aEAMVWHlkjGo6CPWuQZ4-84" target="aEAMVWHlkjGo6CPWuQZ4-63">
+          <mxGeometry x="1" y="-180" width="160" relative="1" as="geometry">
+            <mxPoint x="474.79411764705856" y="347.25" as="sourcePoint" />
+            <mxPoint x="474.79411764705856" y="289.25" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="393.25" y="594.75" />
+              <mxPoint x="535.25" y="594.75" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-89" value="LWPlayerSpeedPanleView" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=11;direction=east;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="543.25" y="624.75" width="187.5" height="50" as="geometry">
+            <mxRectangle x="320" y="290" width="100" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-90" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=1;fontFamily=Helvetica;fontSize=12;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aEAMVWHlkjGo6CPWuQZ4-89" target="aEAMVWHlkjGo6CPWuQZ4-63">
+          <mxGeometry x="1" y="-180" width="160" relative="1" as="geometry">
+            <mxPoint x="284.74" y="707.75" as="sourcePoint" />
+            <mxPoint x="474.7105263157896" y="557.25" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="637.25" y="594.75" />
+              <mxPoint x="535.25" y="594.75" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-92" value="LVPlayerDefinitionPanleView" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=11;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1198" y="622.5" width="190" height="57.5" as="geometry">
+            <mxRectangle x="320" y="290" width="100" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-93" value="LVPlayerSpeedPanleView" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=11;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="908" y="622.5" width="152.5" height="50" as="geometry">
+            <mxRectangle x="320" y="290" width="100" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-94" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=1;fontFamily=Helvetica;fontSize=12;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aEAMVWHlkjGo6CPWuQZ4-92" target="aEAMVWHlkjGo6CPWuQZ4-67">
+          <mxGeometry x="1" y="-180" width="160" relative="1" as="geometry">
+            <mxPoint x="1164.4722222222222" y="350" as="sourcePoint" />
+            <mxPoint x="1164.25" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1284.25" y="592.5" />
+              <mxPoint x="1154.25" y="592.5" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-95" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=1;fontFamily=Helvetica;fontSize=12;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aEAMVWHlkjGo6CPWuQZ4-93" target="aEAMVWHlkjGo6CPWuQZ4-67">
+          <mxGeometry x="1" y="-180" width="160" relative="1" as="geometry">
+            <mxPoint x="854.2499999999995" y="700" as="sourcePoint" />
+            <mxPoint x="1164.4722222222222" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="984.25" y="592.5" />
+              <mxPoint x="1154.25" y="592.5" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-99" value="PlayerBaseSpeedPanelController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=11;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="270" y="911" width="324.5" height="180" as="geometry">
+            <mxRectangle x="320" y="290" width="100" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-100" value="&lt;font style=&quot;font-size: 12px&quot;&gt;# mViewStub:ViewStub&lt;br&gt;// 间接持有speedView(LW或LV)&lt;br&gt;# speedView:LargePanelRecyclerViewImp&lt;br&gt;# mVideoInfo:I18NVideoInfo&lt;br&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;rounded=1;" vertex="1" parent="aEAMVWHlkjGo6CPWuQZ4-99">
+          <mxGeometry y="26" width="324.5" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-101" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;rounded=1;" vertex="1" parent="aEAMVWHlkjGo6CPWuQZ4-99">
+          <mxGeometry y="90" width="324.5" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-102" value="+ inflateStubView()&#xa;+ onLoadVideoEvent(event:LoadVideoEvent)&#xa;+ onItemAction(v:View, pos:Int)&#xa;&#xa;+ onControllerShowEvent(event:ControllerShowEvnet)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontStyle=0;rounded=1;" vertex="1" parent="aEAMVWHlkjGo6CPWuQZ4-99">
+          <mxGeometry y="98" width="324.5" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-104" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=1;fontFamily=Helvetica;fontSize=10;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aEAMVWHlkjGo6CPWuQZ4-99" target="aEAMVWHlkjGo6CPWuQZ4-53">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="656.25" y="1728.5092183908046" as="sourcePoint" />
+            <mxPoint x="506.25" y="818.5666666666666" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="818" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-151" value="持有View的抽象" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;rounded=1;" vertex="1" connectable="0" parent="aEAMVWHlkjGo6CPWuQZ4-104">
+          <mxGeometry x="-0.1173" y="-5" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-106" value="LWPlayerSpeedPanelController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=11;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="190" y="1182.5" width="282.5" height="60" as="geometry">
+            <mxRectangle x="320" y="290" width="100" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-109" value="+ onControllerShowEvent(event:ControllerShowEvnet)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontStyle=0;rounded=1;" vertex="1" parent="aEAMVWHlkjGo6CPWuQZ4-106">
+          <mxGeometry y="26" width="282.5" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-110" value="LVPlayerSpeedPanelControlelr" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=11;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="190" y="1260" width="282.5" height="60" as="geometry">
+            <mxRectangle x="320" y="290" width="100" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-111" value="+ onControllerShowEvent(event:ControllerShowEvnet)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontStyle=0;rounded=1;" vertex="1" parent="aEAMVWHlkjGo6CPWuQZ4-110">
+          <mxGeometry y="26" width="282.5" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-114" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=1;fontFamily=Helvetica;fontSize=12;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aEAMVWHlkjGo6CPWuQZ4-106" target="aEAMVWHlkjGo6CPWuQZ4-99">
+          <mxGeometry x="1" y="-180" width="160" relative="1" as="geometry">
+            <mxPoint x="295.75" y="1328.5" as="sourcePoint" />
+            <mxPoint x="295.75" y="1228.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="1138.5" />
+              <mxPoint x="380" y="1138.5" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-115" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=1;fontFamily=Helvetica;fontSize=12;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aEAMVWHlkjGo6CPWuQZ4-110" target="aEAMVWHlkjGo6CPWuQZ4-99">
+          <mxGeometry x="1" y="-180" width="160" relative="1" as="geometry">
+            <mxPoint x="642" y="1118.5" as="sourcePoint" />
+            <mxPoint x="678" y="978.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="1290" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-116" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Abstract&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;PlayerBaseRecyclerPlaneViewAdapter&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;# mContext:Context&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;# mPlayerInfo:II18NPlayerInfo&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- mListener:OnViewClickListener&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- mData:List&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ setOnViewClickListener(listener:OnViewClickListener)&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ setPlayerData(info II18NPlayerInfo)&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ getAutoDefault(pos:Int):String&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ getUnCurrentColor(pos:Int):Int&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;i&gt;+ setData():List&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;i&gt;+ isCurrentItem(pos:Int):Boolean&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;i&gt;+ addData(pos:Int):String&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;i&gt;//..... RecylerViewAdapter的实现&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;i&gt;&lt;br&gt;&lt;/i&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;labelBackgroundColor=none;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="636.25" y="1050" width="400" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-117" value="SpeedPlayerBaseRecyclerAdapter" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=11;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="566.25" y="1410" width="220" height="60" as="geometry">
+            <mxRectangle x="320" y="290" width="100" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-118" value="&lt;font style=&quot;font-size: 12px&quot;&gt;+ speeds={0.5,0.75,1,1.25,1.5,2,3}&lt;br&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;rounded=1;" vertex="1" parent="aEAMVWHlkjGo6CPWuQZ4-117">
+          <mxGeometry y="26" width="220" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-119" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=1;fontFamily=Helvetica;fontSize=12;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" source="aEAMVWHlkjGo6CPWuQZ4-117" target="aEAMVWHlkjGo6CPWuQZ4-116" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1" y="-180" width="160" relative="1" as="geometry">
+            <mxPoint x="296.25999999999954" y="2584" as="sourcePoint" />
+            <mxPoint x="277.81315789473683" y="1956" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="696.26" y="1414" />
+              <mxPoint x="696.26" y="1414" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-120" value="DefinitionPlayerBaseRecyclerAdapter" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=11;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="880" y="1410" width="220" height="60" as="geometry">
+            <mxRectangle x="320" y="290" width="100" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-121" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=1;fontFamily=Helvetica;fontSize=12;edgeStyle=orthogonalEdgeStyle;shadow=0;jumpStyle=none;curved=1;" edge="1" source="aEAMVWHlkjGo6CPWuQZ4-120" target="aEAMVWHlkjGo6CPWuQZ4-116" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1" y="-180" width="160" relative="1" as="geometry">
+            <mxPoint x="456.33947368421036" y="2554" as="sourcePoint" />
+            <mxPoint x="597.55" y="2404.0526315789475" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="990" y="1400" />
+              <mxPoint x="990" y="1400" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-126" value="" style="endArrow=open;endSize=12;html=1;rounded=1;shadow=0;fontFamily=Helvetica;fontSize=14;jumpStyle=none;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aEAMVWHlkjGo6CPWuQZ4-35" target="aEAMVWHlkjGo6CPWuQZ4-39">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1112.5" y="130" as="sourcePoint" />
+            <mxPoint x="952.5" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-127" value="" style="endArrow=open;endSize=12;html=1;rounded=1;shadow=0;fontFamily=Helvetica;fontSize=14;jumpStyle=none;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aEAMVWHlkjGo6CPWuQZ4-27" target="aEAMVWHlkjGo6CPWuQZ4-31">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1237.5" y="-110" as="sourcePoint" />
+            <mxPoint x="1532.5" y="-400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-128" value="" style="endArrow=open;endSize=12;html=1;rounded=1;shadow=0;fontFamily=Helvetica;fontSize=14;jumpStyle=none;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aEAMVWHlkjGo6CPWuQZ4-10" target="aEAMVWHlkjGo6CPWuQZ4-20">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1237.5" y="-350" as="sourcePoint" />
+            <mxPoint x="1237.5" y="-392" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="569.5" y="-150" />
+              <mxPoint x="569.5" y="-150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-129" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=1;fontFamily=Helvetica;fontSize=10;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aEAMVWHlkjGo6CPWuQZ4-99" target="aEAMVWHlkjGo6CPWuQZ4-117">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="596.26" y="1325" as="sourcePoint" />
+            <mxPoint x="756.26" y="1246.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="1170" />
+              <mxPoint x="580" y="1170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-130" value="PlayerBaseDefinitionPanelController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=11;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1060" y="902.5" width="328" height="180" as="geometry">
+            <mxRectangle x="320" y="290" width="100" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-131" value="&lt;font style=&quot;font-size: 12px&quot;&gt;# mViewStub:ViewStub&lt;br&gt;// 间接持有definitionView(LW或LV)&lt;br&gt;# speedView:LargePanelRecyclerViewImp&lt;br&gt;# mVideoInfo:I18NVideoInfo&lt;br&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;rounded=1;" vertex="1" parent="aEAMVWHlkjGo6CPWuQZ4-130">
+          <mxGeometry y="26" width="328" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-132" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;rounded=1;" vertex="1" parent="aEAMVWHlkjGo6CPWuQZ4-130">
+          <mxGeometry y="90" width="328" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-133" value="+ inflateStubView()&#xa;+ onLoadVideoEvent(event:LoadVideoEvent)&#xa;+ onItemAction(v:View, pos:Int)&#xa;&#xa;+ onControllerShowEvent(event:ControllerShowEvnet)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontStyle=0;rounded=1;" vertex="1" parent="aEAMVWHlkjGo6CPWuQZ4-130">
+          <mxGeometry y="98" width="328" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-134" value="LWPlayerDefinitionPanelController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=11;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1180" y="1260" width="282.5" height="60" as="geometry">
+            <mxRectangle x="320" y="290" width="100" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-135" value="+ onControllerShowEvent(event:ControllerShowEvnet)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontStyle=0;rounded=1;" vertex="1" parent="aEAMVWHlkjGo6CPWuQZ4-134">
+          <mxGeometry y="26" width="282.5" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-136" value="LVPlayerDefinitionPanelControlelr" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=11;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1180" y="1174" width="282.5" height="60" as="geometry">
+            <mxRectangle x="320" y="290" width="100" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-137" value="+ onControllerShowEvent(event:ControllerShowEvnet)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontStyle=0;rounded=1;" vertex="1" parent="aEAMVWHlkjGo6CPWuQZ4-136">
+          <mxGeometry y="26" width="282.5" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-138" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=1;fontFamily=Helvetica;fontSize=12;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" source="aEAMVWHlkjGo6CPWuQZ4-134" target="aEAMVWHlkjGo6CPWuQZ4-130" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1" y="-180" width="160" relative="1" as="geometry">
+            <mxPoint x="995.75" y="1320" as="sourcePoint" />
+            <mxPoint x="995.75" y="1220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1140" y="1290" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-139" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=1;fontFamily=Helvetica;fontSize=12;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" source="aEAMVWHlkjGo6CPWuQZ4-136" target="aEAMVWHlkjGo6CPWuQZ4-130" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1" y="-180" width="160" relative="1" as="geometry">
+            <mxPoint x="1342" y="1110" as="sourcePoint" />
+            <mxPoint x="1378" y="970" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1260" y="1130" />
+              <mxPoint x="1260" y="1130" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-140" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=1;fontFamily=Helvetica;fontSize=10;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aEAMVWHlkjGo6CPWuQZ4-130" target="aEAMVWHlkjGo6CPWuQZ4-120">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1076.26" y="1316.5" as="sourcePoint" />
+            <mxPoint x="598.76" y="1654" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1080" y="1320" />
+              <mxPoint x="1080" y="1320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-141" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=1;fontFamily=Helvetica;fontSize=10;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aEAMVWHlkjGo6CPWuQZ4-130" target="aEAMVWHlkjGo6CPWuQZ4-53">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="303" y="1430" as="sourcePoint" />
+            <mxPoint x="830" y="1095" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1170" y="810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-152" value="持有View的抽象" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;rounded=1;" vertex="1" connectable="0" parent="aEAMVWHlkjGo6CPWuQZ4-141">
+          <mxGeometry x="0.1742" y="1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-144" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;RecyclerItemClickListener&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ onItemAction(v:View?,pos:Int)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;labelBackgroundColor=none;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="735" y="930" width="193.75" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-146" value="" style="endArrow=block;endSize=12;dashed=1;html=1;rounded=1;shadow=0;fontFamily=Helvetica;fontSize=14;jumpStyle=none;edgeStyle=orthogonalEdgeStyle;endFill=0;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aEAMVWHlkjGo6CPWuQZ4-99" target="aEAMVWHlkjGo6CPWuQZ4-144">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="190" y="1350" as="sourcePoint" />
+            <mxPoint x="350" y="1350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="970" />
+              <mxPoint x="650" y="970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-147" value="" style="endArrow=block;endSize=12;dashed=1;html=1;rounded=1;shadow=0;fontFamily=Helvetica;fontSize=14;jumpStyle=none;edgeStyle=orthogonalEdgeStyle;endFill=0;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aEAMVWHlkjGo6CPWuQZ4-130" target="aEAMVWHlkjGo6CPWuQZ4-144">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1521.5384615384614" y="1310" as="sourcePoint" />
+            <mxPoint x="846.0769230769231" y="840" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1000" y="970" />
+              <mxPoint x="1000" y="970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-154" value="播放器倍速和清晰度面版" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="729.25" y="182" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-155" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;AudioSubtitleTraceItemClickImp&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ audioItemClick(pos:Int)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ subtitleItemClick(pos:Int)&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;labelBackgroundColor=none;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="756.63" y="1870" width="195.75" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-156" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;LargePanleSubtitleAudioViewImp&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ setClickListener(recyclerItemClickListener:RecyclerItemClickListener)&lt;br&gt;+ setAudioSubtitleTrackItemClickImp(clickImp:AudioSubtitleTraceItemClickImp)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ setData(mPlayerInfo:II18NPlayerInfo)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ backToTop()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getView():View&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;labelBackgroundColor=none;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="634.5" y="1710" width="440" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-159" value="LWSubtitleAudioView" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=11;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="167.5" y="1690" width="380" height="160" as="geometry">
+            <mxRectangle x="320" y="290" width="100" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-160" value="&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- mPlayerInfo:II18NPlayerInfo&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- itemClickListener:AudioSubtitleTraceItemClickImp&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- subtitleRecyclerView:RecyclerView&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;-audioRecyclerView:RecyclerView&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- subtitleAdapter: FlexboxAdapter&amp;lt;TVKNetVideoInfo.SubTitle&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- audioAdapter:FlexboxAdapter&amp;lt;TVKNetVideoInfo.AudioTraceInfo&amp;gt;&lt;/p&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;rounded=1;" vertex="1" parent="aEAMVWHlkjGo6CPWuQZ4-159">
+          <mxGeometry y="26" width="380" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-161" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;rounded=1;" vertex="1" parent="aEAMVWHlkjGo6CPWuQZ4-159">
+          <mxGeometry y="120" width="380" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-162" value="// LargePanelSubtitleAudioViewImp的实现" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontStyle=0;rounded=1;" vertex="1" parent="aEAMVWHlkjGo6CPWuQZ4-159">
+          <mxGeometry y="128" width="380" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-163" value="LinearLayou" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="277.5" y="1580" width="160" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-164" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=1;fontFamily=Helvetica;fontSize=12;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aEAMVWHlkjGo6CPWuQZ4-159" target="aEAMVWHlkjGo6CPWuQZ4-163">
+          <mxGeometry x="1" y="-180" width="160" relative="1" as="geometry">
+            <mxPoint x="390" y="1192.5" as="sourcePoint" />
+            <mxPoint x="390" y="1101" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-171" value="LWSubtitleAudioView" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=11;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1160" y="1690" width="380" height="160" as="geometry">
+            <mxRectangle x="320" y="290" width="100" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-172" value="&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- mPlayerInfo:II18NPlayerInfo&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- itemClickListener:AudioSubtitleTraceItemClickImp&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- subtitleRecyclerView:RecyclerView&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;-audioRecyclerView:RecyclerView&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- subtitleAdapter: FlexboxAdapter&amp;lt;TVKNetVideoInfo.SubTitle&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- audioAdapter:FlexboxAdapter&amp;lt;TVKNetVideoInfo.AudioTraceInfo&amp;gt;&lt;/p&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;rounded=1;" vertex="1" parent="aEAMVWHlkjGo6CPWuQZ4-171">
+          <mxGeometry y="26" width="380" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-173" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;rounded=1;" vertex="1" parent="aEAMVWHlkjGo6CPWuQZ4-171">
+          <mxGeometry y="120" width="380" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-174" value="// LargePanelSubtitleAudioViewImp的实现" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontStyle=0;rounded=1;" vertex="1" parent="aEAMVWHlkjGo6CPWuQZ4-171">
+          <mxGeometry y="128" width="380" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-177" value="LVSecondPagePanelView" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1260" y="1567.5" width="180" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-178" value="ConstraintLayout" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1270" y="1470" width="160" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-179" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=1;fontFamily=Helvetica;fontSize=12;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" source="aEAMVWHlkjGo6CPWuQZ4-177" target="aEAMVWHlkjGo6CPWuQZ4-178" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1" y="-180" width="160" relative="1" as="geometry">
+            <mxPoint x="654.75" y="1689.9999999999998" as="sourcePoint" />
+            <mxPoint x="654.75" y="1652" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-180" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=1;fontFamily=Helvetica;fontSize=12;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" target="aEAMVWHlkjGo6CPWuQZ4-177" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aEAMVWHlkjGo6CPWuQZ4-171">
+          <mxGeometry x="1" y="-180" width="160" relative="1" as="geometry">
+            <mxPoint x="1354.5263157894738" y="1690" as="sourcePoint" />
+            <mxPoint x="1315.75" y="1620" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-183" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jumpStyle=none;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontFamily=Helvetica;fontSize=14;endArrow=open;endFill=0;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aEAMVWHlkjGo6CPWuQZ4-156" target="aEAMVWHlkjGo6CPWuQZ4-155">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="842.0000000000002" y="863.5" as="sourcePoint" />
+            <mxPoint x="842.0000000000002" y="940" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-184" value="FlexboxAdapter&lt;T&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=11;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="663.75" y="2310" width="380" height="130" as="geometry">
+            <mxRectangle x="320" y="290" width="100" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-185" value="&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;# context:Context&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;# layoutView:View&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;# data:List&amp;lt;T&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- viewHolder:ViewHodler&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;rounded=1;" vertex="1" parent="aEAMVWHlkjGo6CPWuQZ4-184">
+          <mxGeometry y="26" width="380" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-186" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;rounded=1;" vertex="1" parent="aEAMVWHlkjGo6CPWuQZ4-184">
+          <mxGeometry y="90" width="380" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-187" value="// RecyclerView.Adapter的实现" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontStyle=0;rounded=1;" vertex="1" parent="aEAMVWHlkjGo6CPWuQZ4-184">
+          <mxGeometry y="98" width="380" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-192" value="" style="endArrow=block;endSize=12;dashed=1;html=1;rounded=1;shadow=0;fontFamily=Helvetica;fontSize=14;jumpStyle=none;edgeStyle=orthogonalEdgeStyle;endFill=0;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aEAMVWHlkjGo6CPWuQZ4-202" target="aEAMVWHlkjGo6CPWuQZ4-155">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="855.3" y="1970" as="sourcePoint" />
+            <mxPoint x="837.5" y="2290.0026315789473" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-193" value="" style="endArrow=block;endSize=12;dashed=1;html=1;rounded=1;shadow=0;fontFamily=Helvetica;fontSize=14;jumpStyle=none;edgeStyle=orthogonalEdgeStyle;endFill=0;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aEAMVWHlkjGo6CPWuQZ4-159" target="aEAMVWHlkjGo6CPWuQZ4-156">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="849.76" y="2040" as="sourcePoint" />
+            <mxPoint x="850" y="2000" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-194" value="" style="endArrow=block;endSize=12;dashed=1;html=1;rounded=1;shadow=0;fontFamily=Helvetica;fontSize=14;jumpStyle=none;edgeStyle=orthogonalEdgeStyle;endFill=0;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aEAMVWHlkjGo6CPWuQZ4-171" target="aEAMVWHlkjGo6CPWuQZ4-156">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="557.5" y="1780" as="sourcePoint" />
+            <mxPoint x="630" y="1790" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-195" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jumpStyle=none;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontFamily=Helvetica;fontSize=14;endArrow=open;endFill=0;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aEAMVWHlkjGo6CPWuQZ4-159" target="aEAMVWHlkjGo6CPWuQZ4-184">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="850" y="1850" as="sourcePoint" />
+            <mxPoint x="850" y="1920" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="358" y="2375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-196" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jumpStyle=none;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontFamily=Helvetica;fontSize=14;endArrow=open;endFill=0;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aEAMVWHlkjGo6CPWuQZ4-171" target="aEAMVWHlkjGo6CPWuQZ4-184">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="1731" as="sourcePoint" />
+            <mxPoint x="638.73" y="1671" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1350" y="2380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-197" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=1;fixDash=0;snapToPoint=1;fontSize=14;shadow=0;endFill=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aEAMVWHlkjGo6CPWuQZ4-202" target="aEAMVWHlkjGo6CPWuQZ4-184">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="855" y="2162" as="sourcePoint" />
+            <mxPoint x="600" y="1540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="870" y="2170" />
+              <mxPoint x="855" y="2170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-198" value="LWPlayerSpeedPanelController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=11;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="490" y="2220" width="282.5" height="60" as="geometry">
+            <mxRectangle x="320" y="290" width="100" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-199" value="+ onControllerShowEvent(event:ControllerShowEvnet)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontStyle=0;rounded=1;" vertex="1" parent="aEAMVWHlkjGo6CPWuQZ4-198">
+          <mxGeometry y="26" width="282.5" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-200" value="LVPlayerSpeedPanelControlelr" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=11;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="928.75" y="2220" width="282.5" height="60" as="geometry">
+            <mxRectangle x="320" y="290" width="100" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-201" value="+ onControllerShowEvent(event:ControllerShowEvnet)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontStyle=0;rounded=1;" vertex="1" parent="aEAMVWHlkjGo6CPWuQZ4-200">
+          <mxGeometry y="26" width="282.5" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-202" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Abstract&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;PlayerBaseAudioSubtitlePanelController&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;# mViewStub:ViewStub&lt;br&gt;// 间接持有panelView(LW或LV)&lt;br&gt;# audioSubtitleView:LargePanelSubtitleAudioViewImp&lt;br&gt;# mVideoInfo:I18NVideoInfo&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ inflateStubView()&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;+ onLoadVideoEvent(event:LoadVideoEvent)&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;+ audioItemClick(pos:Int)&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;+ subtitleItemClick(pos:Int)&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;+ onControllerShowEvent(event:ControllerShowEvnet)&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;i&gt;&lt;br&gt;&lt;/i&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;labelBackgroundColor=none;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="695" y="1990" width="317.5" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-203" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=1;fontFamily=Helvetica;fontSize=12;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aEAMVWHlkjGo6CPWuQZ4-200" target="aEAMVWHlkjGo6CPWuQZ4-202">
+          <mxGeometry x="1" y="-180" width="160" relative="1" as="geometry">
+            <mxPoint x="1160" y="2161.5" as="sourcePoint" />
+            <mxPoint x="1160" y="2070" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1160" y="2085" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-204" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=1;fontFamily=Helvetica;fontSize=12;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aEAMVWHlkjGo6CPWuQZ4-198" target="aEAMVWHlkjGo6CPWuQZ4-202">
+          <mxGeometry x="1" y="-180" width="160" relative="1" as="geometry">
+            <mxPoint x="1170" y="2230" as="sourcePoint" />
+            <mxPoint x="1022.5" y="2095" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="2095" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEAMVWHlkjGo6CPWuQZ4-205" value="播放器音频字幕面板" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="779.25" y="1602" width="170" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
