@@ -1,1 +1,91 @@
-<mxfile host="app.diagrams.net" modified="2021-12-16T09:26:38.644Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" version="15.9.4" etag="ucZEL5QgX7vqlFx2QXS9" type="github"><diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">7VhZc9MwEP41Hp5gfBQnecRp0wKhU2ihw6NiK7aI7DWynINfzyqWYzsOOYD0yDQv0a43K2m/b4/YcPrx/FKQNPoEAeWGbQZzwzk3bNuybQe/lGZRaLq9bqEIBQu0UaW4Zb+oVppam7OAZg1DCcAlS5tKH5KE+rKhI0LArGk2Bt7cNSUhbSlufcLb2nsWyEjfwu5U+ivKwqjc2XJ7xZOYlMb6JllEApjVVM6F4fQFgCxW8bxPuQpeGZf794t7Ppy4lx8+Zz/JV+/j3fW314WzwSE/WV1B0ET+X9d24XpKeK7jpe8qF2UABeRJQJUT03C8SMYclxYuf1ApFxpwkktAFQgZQQgJ4UOAVNuNIZHazFIyTYJ3CliURxz8SaEaMM71Hihp+y5KmRQwWWGnHKyAUMacjCj3iD8JlwftAweBjxJIqHIVIBn0XarDXVRab8/YagwyyIVPt9jpbJFEhHSbP7ewU+er8VQjd0khplIs0EBQTiSbNslMdE6EK7sKd1xo6A+ggdOiwZDEqcp6oFnySuJqBmKyhRsKl1nEJL1NyTJAMywnTb7UeYBX9UJOskyjuAPkw0CaUiHpfGtYy6euzu2yuGlxVlUKq0z/qFYlzswjAXHWAuI7Fs+XlPyXlHT3TMmyY+3MSU2Wkhh7p6j2dAMskTUTGI8zPNg6dVYb/j2b3rbYdA0tMu3G41nT7ZHI1DmMS9aT55L7hxbhcgyDNxK4CtUq5XkYIlnQXWI4g3btiiAe5dnudtHAWDFoQGLGVbyuKJ9SyXyyoakQzkLc99xHuKnYTB7ckiUhSm4l3S3JivX3iM2m02w2K7nebcwN3aZ7rG7TaWF6g+gV0NkmX+J7Yh3fsddA6D12y+/uU6SfdQl+8I5fVtPdLd/as0xr9phvHPw0CPT0p4DeXjPlyxhwHIbZpzYIlCes8cnL+ag9CYxykSwHAcjlyySwbRKwNzWhB50EykJYA/ULTQlDMM3hKc4B6//8z5zHngPKStGEgKuY2maRYSeGwfos5ljHwwDF6k1tUQqr993OxW8=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-17T03:49:52.760Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="c03qzKGT3rnAhu8_7R8A" version="15.9.4" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="2864" dy="1024" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="oYDgnMxmBpCM6dXQPFL9-28" value="" style="swimlane;startSize=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-460" y="930" width="1080" height="770" as="geometry" />
+        </mxCell>
+        <mxCell id="oYDgnMxmBpCM6dXQPFL9-30" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="oYDgnMxmBpCM6dXQPFL9-28" target="oYDgnMxmBpCM6dXQPFL9-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1320" y="620" as="sourcePoint" />
+            <mxPoint x="440" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oYDgnMxmBpCM6dXQPFL9-0" value="&lt;span style=&quot;font-size: 16px ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;lexend&amp;#34; , &amp;#34;sourcecodepro&amp;#34; , &amp;#34;notosanssc&amp;#34; ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;PlayerUnresidentTipsController&lt;br&gt;&lt;/span&gt;接收到&lt;br&gt;LoadVideoEvent&lt;br&gt;CancelToast" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-413" y="225" width="290" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oYDgnMxmBpCM6dXQPFL9-1" value="&lt;span style=&quot;font-size: 16px ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;lexend&amp;#34; , &amp;#34;sourcecodepro&amp;#34; , &amp;#34;notosanssc&amp;#34; ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;PlayerUnresidentTipsController&lt;br&gt;&lt;/span&gt;接收到&lt;br&gt;CancelUnresidentTipsEvent&lt;br&gt;CancelToast" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="270" y="710" width="300" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oYDgnMxmBpCM6dXQPFL9-3" value="&lt;span style=&quot;font-size: 16px ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;lexend&amp;#34; , &amp;#34;sourcecodepro&amp;#34; , &amp;#34;notosanssc&amp;#34; ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;PlayerUnresidentTipsController&lt;br&gt;&lt;/span&gt;接收到&lt;br&gt;ShowUnresidentHtmlTipsEventt&lt;br&gt;showTaost" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-90" y="810" width="290" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oYDgnMxmBpCM6dXQPFL9-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oYDgnMxmBpCM6dXQPFL9-5" target="oYDgnMxmBpCM6dXQPFL9-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oYDgnMxmBpCM6dXQPFL9-5" value="&lt;div&gt;&lt;font color=&quot;#333333&quot; face=&quot;lexend, sourcecodepro, notosanssc&quot; size=&quot;3&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;PlayerManager&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#333333&quot; face=&quot;lexend, sourcecodepro, notosanssc&quot; size=&quot;3&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;的VideoPrepared方法post了BuffingEndEvent&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="275" y="450" width="290" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oYDgnMxmBpCM6dXQPFL9-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oYDgnMxmBpCM6dXQPFL9-6" target="oYDgnMxmBpCM6dXQPFL9-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oYDgnMxmBpCM6dXQPFL9-6" value="&lt;span style=&quot;font-size: 16px ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;lexend&amp;#34; , &amp;#34;sourcecodepro&amp;#34; , &amp;#34;notosanssc&amp;#34; ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;PlayerTipsHelperController &lt;br&gt;接受到了onBuffintEndEvent &lt;br&gt;post cancelToast&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="275" y="570" width="290" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oYDgnMxmBpCM6dXQPFL9-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oYDgnMxmBpCM6dXQPFL9-9" target="oYDgnMxmBpCM6dXQPFL9-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oYDgnMxmBpCM6dXQPFL9-9" value="&lt;span style=&quot;font-size: 16px ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;lexend&amp;#34; , &amp;#34;sourcecodepro&amp;#34; , &amp;#34;notosanssc&amp;#34; ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;PaymentController&lt;br&gt;&lt;/span&gt;发送&lt;br&gt;ShowUnresidentHtmlTipsEventt" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-90" y="340" width="290" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oYDgnMxmBpCM6dXQPFL9-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oYDgnMxmBpCM6dXQPFL9-11" target="oYDgnMxmBpCM6dXQPFL9-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oYDgnMxmBpCM6dXQPFL9-11" value="&lt;span style=&quot;font-size: 16px ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;lexend&amp;#34; , &amp;#34;sourcecodepro&amp;#34; , &amp;#34;notosanssc&amp;#34; ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;PaymentController&lt;br&gt;&lt;/span&gt;接收到LoadVideoEvent&lt;br&gt;开始鉴权" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-90" y="225" width="290" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="oYDgnMxmBpCM6dXQPFL9-15" value="&lt;span style=&quot;font-size: 16px ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;lexend&amp;#34; , &amp;#34;sourcecodepro&amp;#34; , &amp;#34;notosanssc&amp;#34; ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;PlayerUnresidentTipsController&lt;br&gt;&lt;/span&gt;接收到&lt;br&gt;LoadVideoEvent&lt;br&gt;CancelToast" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-413" y="960" width="290" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oYDgnMxmBpCM6dXQPFL9-16" value="&lt;span style=&quot;font-size: 16px ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;lexend&amp;#34; , &amp;#34;sourcecodepro&amp;#34; , &amp;#34;notosanssc&amp;#34; ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;PlayerUnresidentTipsController&lt;br&gt;&lt;/span&gt;接收到&lt;br&gt;CancelUnresidentTipsEvent&lt;br&gt;CancelToast" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="272" y="1560" width="300" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oYDgnMxmBpCM6dXQPFL9-17" value="&lt;span style=&quot;font-size: 16px ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;lexend&amp;#34; , &amp;#34;sourcecodepro&amp;#34; , &amp;#34;notosanssc&amp;#34; ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;PlayerUnresidentTipsController&lt;br&gt;&lt;/span&gt;接收到&lt;br&gt;ShowUnresidentHtmlTipsEventt&lt;br&gt;showTaost" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-90" y="1210" width="290" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oYDgnMxmBpCM6dXQPFL9-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="oYDgnMxmBpCM6dXQPFL9-19" target="oYDgnMxmBpCM6dXQPFL9-21" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oYDgnMxmBpCM6dXQPFL9-19" value="&lt;div&gt;&lt;font color=&quot;#333333&quot; face=&quot;lexend, sourcecodepro, notosanssc&quot; size=&quot;3&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;PlayerManager&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#333333&quot; face=&quot;lexend, sourcecodepro, notosanssc&quot; size=&quot;3&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;的VideoPrepared方法post了BuffingEndEvent&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="277" y="1320" width="290" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oYDgnMxmBpCM6dXQPFL9-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" source="oYDgnMxmBpCM6dXQPFL9-21" target="oYDgnMxmBpCM6dXQPFL9-16" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oYDgnMxmBpCM6dXQPFL9-21" value="&lt;span style=&quot;font-size: 16px ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;lexend&amp;#34; , &amp;#34;sourcecodepro&amp;#34; , &amp;#34;notosanssc&amp;#34; ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;PlayerTipsHelperController &lt;br&gt;接受到了onBuffintEndEvent &lt;br&gt;post cancelToast&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="277" y="1440" width="290" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oYDgnMxmBpCM6dXQPFL9-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="oYDgnMxmBpCM6dXQPFL9-23" target="oYDgnMxmBpCM6dXQPFL9-17" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oYDgnMxmBpCM6dXQPFL9-23" value="&lt;span style=&quot;font-size: 16px ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;lexend&amp;#34; , &amp;#34;sourcecodepro&amp;#34; , &amp;#34;notosanssc&amp;#34; ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;PaymentController&lt;br&gt;&lt;/span&gt;发送&lt;br&gt;ShowUnresidentHtmlTipsEventt" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-90" y="1075" width="290" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oYDgnMxmBpCM6dXQPFL9-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="oYDgnMxmBpCM6dXQPFL9-25" target="oYDgnMxmBpCM6dXQPFL9-23" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oYDgnMxmBpCM6dXQPFL9-25" value="&lt;span style=&quot;font-size: 16px ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;lexend&amp;#34; , &amp;#34;sourcecodepro&amp;#34; , &amp;#34;notosanssc&amp;#34; ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;PaymentController&lt;br&gt;&lt;/span&gt;接收到LoadVideoEvent&lt;br&gt;开始鉴权" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-90" y="960" width="290" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="oYDgnMxmBpCM6dXQPFL9-27" value="" style="swimlane;startSize=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-460" y="160" width="1080" height="770" as="geometry" />
+        </mxCell>
+        <mxCell id="oYDgnMxmBpCM6dXQPFL9-31" value="对CancelToast做条件判断" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="825" y="1560" width="150" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
