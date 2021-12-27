@@ -1,89 +1,120 @@
-<mxfile host="app.diagrams.net" modified="2021-12-17T03:49:52.760Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="c03qzKGT3rnAhu8_7R8A" version="15.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-27T02:30:54.072Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="8HA7Q91scKyto9eFoJ5y" version="16.1.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2864" dy="1024" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2610" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="oYDgnMxmBpCM6dXQPFL9-28" value="" style="swimlane;startSize=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-460" y="930" width="1080" height="770" as="geometry" />
+        <mxCell id="G279wHD7UV4MmN5UC1dS-0" value="VodPlayer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="560" y="890" width="130" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="oYDgnMxmBpCM6dXQPFL9-30" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="oYDgnMxmBpCM6dXQPFL9-28" target="oYDgnMxmBpCM6dXQPFL9-16">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1320" y="620" as="sourcePoint" />
-            <mxPoint x="440" y="600" as="targetPoint" />
+        <mxCell id="G279wHD7UV4MmN5UC1dS-1" value="VOD内部播放器接口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="560" y="860" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="G279wHD7UV4MmN5UC1dS-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G279wHD7UV4MmN5UC1dS-2" target="G279wHD7UV4MmN5UC1dS-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G279wHD7UV4MmN5UC1dS-2" value="Player" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="85" y="640" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="G279wHD7UV4MmN5UC1dS-3" value="App播放器层与详情页沟通接口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="60" y="610" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="G279wHD7UV4MmN5UC1dS-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G279wHD7UV4MmN5UC1dS-4" target="G279wHD7UV4MmN5UC1dS-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G279wHD7UV4MmN5UC1dS-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G279wHD7UV4MmN5UC1dS-4" target="G279wHD7UV4MmN5UC1dS-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="735" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="oYDgnMxmBpCM6dXQPFL9-0" value="&lt;span style=&quot;font-size: 16px ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;lexend&amp;#34; , &amp;#34;sourcecodepro&amp;#34; , &amp;#34;notosanssc&amp;#34; ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;PlayerUnresidentTipsController&lt;br&gt;&lt;/span&gt;接收到&lt;br&gt;LoadVideoEvent&lt;br&gt;CancelToast" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-413" y="225" width="290" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="oYDgnMxmBpCM6dXQPFL9-1" value="&lt;span style=&quot;font-size: 16px ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;lexend&amp;#34; , &amp;#34;sourcecodepro&amp;#34; , &amp;#34;notosanssc&amp;#34; ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;PlayerUnresidentTipsController&lt;br&gt;&lt;/span&gt;接收到&lt;br&gt;CancelUnresidentTipsEvent&lt;br&gt;CancelToast" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="270" y="710" width="300" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="oYDgnMxmBpCM6dXQPFL9-3" value="&lt;span style=&quot;font-size: 16px ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;lexend&amp;#34; , &amp;#34;sourcecodepro&amp;#34; , &amp;#34;notosanssc&amp;#34; ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;PlayerUnresidentTipsController&lt;br&gt;&lt;/span&gt;接收到&lt;br&gt;ShowUnresidentHtmlTipsEventt&lt;br&gt;showTaost" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-90" y="810" width="290" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="oYDgnMxmBpCM6dXQPFL9-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oYDgnMxmBpCM6dXQPFL9-5" target="oYDgnMxmBpCM6dXQPFL9-6">
+        <mxCell id="G279wHD7UV4MmN5UC1dS-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G279wHD7UV4MmN5UC1dS-4" target="G279wHD7UV4MmN5UC1dS-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oYDgnMxmBpCM6dXQPFL9-5" value="&lt;div&gt;&lt;font color=&quot;#333333&quot; face=&quot;lexend, sourcecodepro, notosanssc&quot; size=&quot;3&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;PlayerManager&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#333333&quot; face=&quot;lexend, sourcecodepro, notosanssc&quot; size=&quot;3&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;的VideoPrepared方法post了BuffingEndEvent&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="275" y="450" width="290" height="80" as="geometry" />
+        <mxCell id="G279wHD7UV4MmN5UC1dS-4" value="PlayerManager" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="320" y="640" width="130" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="oYDgnMxmBpCM6dXQPFL9-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oYDgnMxmBpCM6dXQPFL9-6" target="oYDgnMxmBpCM6dXQPFL9-1">
+        <mxCell id="G279wHD7UV4MmN5UC1dS-5" value="App播放器层控制类" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="325" y="610" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="G279wHD7UV4MmN5UC1dS-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G279wHD7UV4MmN5UC1dS-6" target="G279wHD7UV4MmN5UC1dS-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oYDgnMxmBpCM6dXQPFL9-6" value="&lt;span style=&quot;font-size: 16px ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;lexend&amp;#34; , &amp;#34;sourcecodepro&amp;#34; , &amp;#34;notosanssc&amp;#34; ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;PlayerTipsHelperController &lt;br&gt;接受到了onBuffintEndEvent &lt;br&gt;post cancelToast&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="275" y="570" width="290" height="90" as="geometry" />
+        <mxCell id="G279wHD7UV4MmN5UC1dS-6" value="UIFactory" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="560" y="640" width="130" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="oYDgnMxmBpCM6dXQPFL9-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oYDgnMxmBpCM6dXQPFL9-9" target="oYDgnMxmBpCM6dXQPFL9-3">
+        <mxCell id="G279wHD7UV4MmN5UC1dS-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G279wHD7UV4MmN5UC1dS-7" target="G279wHD7UV4MmN5UC1dS-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oYDgnMxmBpCM6dXQPFL9-9" value="&lt;span style=&quot;font-size: 16px ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;lexend&amp;#34; , &amp;#34;sourcecodepro&amp;#34; , &amp;#34;notosanssc&amp;#34; ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;PaymentController&lt;br&gt;&lt;/span&gt;发送&lt;br&gt;ShowUnresidentHtmlTipsEventt" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-90" y="340" width="290" height="80" as="geometry" />
+        <mxCell id="G279wHD7UV4MmN5UC1dS-7" value="PluginFactorty" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="560" y="710" width="130" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="oYDgnMxmBpCM6dXQPFL9-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oYDgnMxmBpCM6dXQPFL9-11" target="oYDgnMxmBpCM6dXQPFL9-9">
+        <mxCell id="G279wHD7UV4MmN5UC1dS-10" value="UI和插件封装" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="580" y="610" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="G279wHD7UV4MmN5UC1dS-11" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="970" y="790" as="sourcePoint" />
+            <mxPoint x="970" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G279wHD7UV4MmN5UC1dS-12" value="Event总线" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="980" y="685" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="G279wHD7UV4MmN5UC1dS-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G279wHD7UV4MmN5UC1dS-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="965" y="682" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G279wHD7UV4MmN5UC1dS-13" value="各种Controller" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="750" y="670" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="G279wHD7UV4MmN5UC1dS-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="965" y="709.5" as="sourcePoint" />
+            <mxPoint x="880" y="710.0000000000002" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="900" y="710" />
+              <mxPoint x="900" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G279wHD7UV4MmN5UC1dS-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G279wHD7UV4MmN5UC1dS-26" target="G279wHD7UV4MmN5UC1dS-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oYDgnMxmBpCM6dXQPFL9-11" value="&lt;span style=&quot;font-size: 16px ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;lexend&amp;#34; , &amp;#34;sourcecodepro&amp;#34; , &amp;#34;notosanssc&amp;#34; ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;PaymentController&lt;br&gt;&lt;/span&gt;接收到LoadVideoEvent&lt;br&gt;开始鉴权" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-90" y="225" width="290" height="70" as="geometry" />
+        <mxCell id="G279wHD7UV4MmN5UC1dS-26" value="1、详情页通知播放器播放信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-90" y="640" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="oYDgnMxmBpCM6dXQPFL9-15" value="&lt;span style=&quot;font-size: 16px ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;lexend&amp;#34; , &amp;#34;sourcecodepro&amp;#34; , &amp;#34;notosanssc&amp;#34; ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;PlayerUnresidentTipsController&lt;br&gt;&lt;/span&gt;接收到&lt;br&gt;LoadVideoEvent&lt;br&gt;CancelToast" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-413" y="960" width="290" height="90" as="geometry" />
+        <mxCell id="G279wHD7UV4MmN5UC1dS-29" value="2、loadVideo" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="220" y="640" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="oYDgnMxmBpCM6dXQPFL9-16" value="&lt;span style=&quot;font-size: 16px ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;lexend&amp;#34; , &amp;#34;sourcecodepro&amp;#34; , &amp;#34;notosanssc&amp;#34; ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;PlayerUnresidentTipsController&lt;br&gt;&lt;/span&gt;接收到&lt;br&gt;CancelUnresidentTipsEvent&lt;br&gt;CancelToast" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="272" y="1560" width="300" height="90" as="geometry" />
+        <mxCell id="G279wHD7UV4MmN5UC1dS-31" value="3_1、组装UI" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="470" y="640" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="oYDgnMxmBpCM6dXQPFL9-17" value="&lt;span style=&quot;font-size: 16px ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;lexend&amp;#34; , &amp;#34;sourcecodepro&amp;#34; , &amp;#34;notosanssc&amp;#34; ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;PlayerUnresidentTipsController&lt;br&gt;&lt;/span&gt;接收到&lt;br&gt;ShowUnresidentHtmlTipsEventt&lt;br&gt;showTaost" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-90" y="1210" width="290" height="90" as="geometry" />
+        <mxCell id="G279wHD7UV4MmN5UC1dS-33" value="4、组装Plugin" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="450" y="710" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="oYDgnMxmBpCM6dXQPFL9-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="oYDgnMxmBpCM6dXQPFL9-19" target="oYDgnMxmBpCM6dXQPFL9-21" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="G279wHD7UV4MmN5UC1dS-36" value="3_2、拉取播放信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="260" y="810" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G279wHD7UV4MmN5UC1dS-37" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="814.37" y="670" as="sourcePoint" />
+            <mxPoint x="814.37" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G279wHD7UV4MmN5UC1dS-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G279wHD7UV4MmN5UC1dS-38" target="G279wHD7UV4MmN5UC1dS-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oYDgnMxmBpCM6dXQPFL9-19" value="&lt;div&gt;&lt;font color=&quot;#333333&quot; face=&quot;lexend, sourcecodepro, notosanssc&quot; size=&quot;3&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;PlayerManager&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#333333&quot; face=&quot;lexend, sourcecodepro, notosanssc&quot; size=&quot;3&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;的VideoPrepared方法post了BuffingEndEvent&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="277" y="1320" width="290" height="80" as="geometry" />
+        <mxCell id="G279wHD7UV4MmN5UC1dS-38" value="LoadVIdeoCompletedEvent" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="735" y="550" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="oYDgnMxmBpCM6dXQPFL9-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" source="oYDgnMxmBpCM6dXQPFL9-21" target="oYDgnMxmBpCM6dXQPFL9-16" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="G279wHD7UV4MmN5UC1dS-40" value="5、初始化完成" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="530" y="500" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="oYDgnMxmBpCM6dXQPFL9-21" value="&lt;span style=&quot;font-size: 16px ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;lexend&amp;#34; , &amp;#34;sourcecodepro&amp;#34; , &amp;#34;notosanssc&amp;#34; ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;PlayerTipsHelperController &lt;br&gt;接受到了onBuffintEndEvent &lt;br&gt;post cancelToast&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="277" y="1440" width="290" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="oYDgnMxmBpCM6dXQPFL9-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="oYDgnMxmBpCM6dXQPFL9-23" target="oYDgnMxmBpCM6dXQPFL9-17" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="oYDgnMxmBpCM6dXQPFL9-23" value="&lt;span style=&quot;font-size: 16px ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;lexend&amp;#34; , &amp;#34;sourcecodepro&amp;#34; , &amp;#34;notosanssc&amp;#34; ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;PaymentController&lt;br&gt;&lt;/span&gt;发送&lt;br&gt;ShowUnresidentHtmlTipsEventt" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-90" y="1075" width="290" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="oYDgnMxmBpCM6dXQPFL9-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="oYDgnMxmBpCM6dXQPFL9-25" target="oYDgnMxmBpCM6dXQPFL9-23" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="oYDgnMxmBpCM6dXQPFL9-25" value="&lt;span style=&quot;font-size: 16px ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;lexend&amp;#34; , &amp;#34;sourcecodepro&amp;#34; , &amp;#34;notosanssc&amp;#34; ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;PaymentController&lt;br&gt;&lt;/span&gt;接收到LoadVideoEvent&lt;br&gt;开始鉴权" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-90" y="960" width="290" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="oYDgnMxmBpCM6dXQPFL9-27" value="" style="swimlane;startSize=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-460" y="160" width="1080" height="770" as="geometry" />
-        </mxCell>
-        <mxCell id="oYDgnMxmBpCM6dXQPFL9-31" value="对CancelToast做条件判断" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="825" y="1560" width="150" height="20" as="geometry" />
+        <mxCell id="G279wHD7UV4MmN5UC1dS-41" value="6、startPlay" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="414" y="880" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
