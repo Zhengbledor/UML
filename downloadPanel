@@ -1,1 +1,140 @@
-<mxfile host="app.diagrams.net" modified="2022-01-16T13:35:10.955Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" version="16.2.7" etag="EfHBhaQvqhxB5_uDwLo7" type="github"><diagram id="M49vBs_WWBdviKBo42ap">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-16T13:48:40.633Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="8RnNwz31c3Jqzfg5woXB" version="16.2.7" type="github">
+  <diagram id="M49vBs_WWBdviKBo42ap" name="Page-1">
+    <mxGraphModel dx="1783" dy="890" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gmt5WNjgKlF_xDyT17Ne-1" value="DownloadPanelController" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="260" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gmt5WNjgKlF_xDyT17Ne-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="gmt5WNjgKlF_xDyT17Ne-3" target="gmt5WNjgKlF_xDyT17Ne-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gmt5WNjgKlF_xDyT17Ne-3" value="DownloadTaskHelper" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="170" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gmt5WNjgKlF_xDyT17Ne-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="gmt5WNjgKlF_xDyT17Ne-4" target="gmt5WNjgKlF_xDyT17Ne-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gmt5WNjgKlF_xDyT17Ne-4" value="DownloadNetHelper" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="170" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gmt5WNjgKlF_xDyT17Ne-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="gmt5WNjgKlF_xDyT17Ne-7" target="gmt5WNjgKlF_xDyT17Ne-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gmt5WNjgKlF_xDyT17Ne-7" value="DownloadPanelView" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="257.5" width="160" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="gmt5WNjgKlF_xDyT17Ne-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="gmt5WNjgKlF_xDyT17Ne-9" target="gmt5WNjgKlF_xDyT17Ne-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gmt5WNjgKlF_xDyT17Ne-9" value="DefinitionAdapter&lt;br&gt;&amp;amp;&lt;br&gt;DefinitionRecyclerView" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="410" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gmt5WNjgKlF_xDyT17Ne-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="gmt5WNjgKlF_xDyT17Ne-10" target="gmt5WNjgKlF_xDyT17Ne-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gmt5WNjgKlF_xDyT17Ne-10" value="DownloadVideoAdapter&lt;br&gt;&amp;amp;&lt;br&gt;DownloadVideoRecyclerView" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="410" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gmt5WNjgKlF_xDyT17Ne-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="gmt5WNjgKlF_xDyT17Ne-11" target="gmt5WNjgKlF_xDyT17Ne-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gmt5WNjgKlF_xDyT17Ne-11" value="DownloadCoverAdapter&lt;br&gt;&amp;amp;&lt;br&gt;DownloadCoverRecyclerView" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="410" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gmt5WNjgKlF_xDyT17Ne-21" value="DownloadPanelController" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="730" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gmt5WNjgKlF_xDyT17Ne-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="gmt5WNjgKlF_xDyT17Ne-22" target="gmt5WNjgKlF_xDyT17Ne-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gmt5WNjgKlF_xDyT17Ne-22" value="DownloadPanelView" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="985" y="727.5" width="160" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="gmt5WNjgKlF_xDyT17Ne-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gmt5WNjgKlF_xDyT17Ne-31" target="gmt5WNjgKlF_xDyT17Ne-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gmt5WNjgKlF_xDyT17Ne-31" value="PlayerDownloadController" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="485" y="920" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="gmt5WNjgKlF_xDyT17Ne-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="gmt5WNjgKlF_xDyT17Ne-34" target="gmt5WNjgKlF_xDyT17Ne-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gmt5WNjgKlF_xDyT17Ne-34" value="DefinitionAdapter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="216.5" y="1260" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gmt5WNjgKlF_xDyT17Ne-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="gmt5WNjgKlF_xDyT17Ne-35" target="gmt5WNjgKlF_xDyT17Ne-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gmt5WNjgKlF_xDyT17Ne-35" value="PlayerDownloadDefinitionController" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="179" y="1100" width="235" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gmt5WNjgKlF_xDyT17Ne-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="gmt5WNjgKlF_xDyT17Ne-39" target="gmt5WNjgKlF_xDyT17Ne-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gmt5WNjgKlF_xDyT17Ne-39" value="PlayerDownloadVideoController" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="462.5" y="1100" width="235" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gmt5WNjgKlF_xDyT17Ne-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="gmt5WNjgKlF_xDyT17Ne-40" target="gmt5WNjgKlF_xDyT17Ne-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gmt5WNjgKlF_xDyT17Ne-40" value="DownloadVideoAdapter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1260" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gmt5WNjgKlF_xDyT17Ne-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="gmt5WNjgKlF_xDyT17Ne-42" target="gmt5WNjgKlF_xDyT17Ne-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gmt5WNjgKlF_xDyT17Ne-42" value="DownloadTaskHelper" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="920" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gmt5WNjgKlF_xDyT17Ne-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="gmt5WNjgKlF_xDyT17Ne-43" target="gmt5WNjgKlF_xDyT17Ne-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gmt5WNjgKlF_xDyT17Ne-43" value="DownloadNetHelper" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="970" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gmt5WNjgKlF_xDyT17Ne-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="gmt5WNjgKlF_xDyT17Ne-46" target="gmt5WNjgKlF_xDyT17Ne-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gmt5WNjgKlF_xDyT17Ne-46" value="PlayerDownloadCoverController" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="1100" width="235" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gmt5WNjgKlF_xDyT17Ne-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="gmt5WNjgKlF_xDyT17Ne-49" target="gmt5WNjgKlF_xDyT17Ne-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gmt5WNjgKlF_xDyT17Ne-49" value="DownloadCoverAdapter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="777.5" y="1260" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gmt5WNjgKlF_xDyT17Ne-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gmt5WNjgKlF_xDyT17Ne-54" target="gmt5WNjgKlF_xDyT17Ne-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1180" y="660" />
+              <mxPoint x="1180" y="755" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gmt5WNjgKlF_xDyT17Ne-54" value="DefinitionRecyclerView" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="630" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gmt5WNjgKlF_xDyT17Ne-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="gmt5WNjgKlF_xDyT17Ne-55" target="gmt5WNjgKlF_xDyT17Ne-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gmt5WNjgKlF_xDyT17Ne-55" value="DownloadVideoRecyclerView" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="727.5" width="200" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="gmt5WNjgKlF_xDyT17Ne-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="gmt5WNjgKlF_xDyT17Ne-56" target="gmt5WNjgKlF_xDyT17Ne-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1180" y="850" />
+              <mxPoint x="1180" y="755" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gmt5WNjgKlF_xDyT17Ne-56" value="DownloadCoverRecyclerView" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="820" width="200" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
