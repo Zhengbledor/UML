@@ -1,1 +1,185 @@
-<mxfile host="app.diagrams.net" modified="2022-01-23T06:36:47.765Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" version="16.3.0" etag="r6gIWOZ8ehxuGnMLBPcg" type="github"><diagram id="okJ8mTbFN8OrDP-XyF3M">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-23T07:32:55.321Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="KnQFtQrWGjBtC4t6uu2w" version="16.3.0" type="github">
+  <diagram id="okJ8mTbFN8OrDP-XyF3M" name="Page-1">
+    <mxGraphModel dx="2194" dy="1095" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hM9aK6XLfTIs_N57lRSA-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hM9aK6XLfTIs_N57lRSA-1" target="hM9aK6XLfTIs_N57lRSA-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hM9aK6XLfTIs_N57lRSA-1" value="点击下载按钮" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hM9aK6XLfTIs_N57lRSA-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hM9aK6XLfTIs_N57lRSA-2" target="hM9aK6XLfTIs_N57lRSA-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hM9aK6XLfTIs_N57lRSA-2" value="初始化页面&lt;br&gt;inflateStubView()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="200" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hM9aK6XLfTIs_N57lRSA-4" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="hM9aK6XLfTIs_N57lRSA-5" target="hM9aK6XLfTIs_N57lRSA-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="320" as="sourcePoint" />
+            <mxPoint x="270" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hM9aK6XLfTIs_N57lRSA-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hM9aK6XLfTIs_N57lRSA-5" target="hM9aK6XLfTIs_N57lRSA-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hM9aK6XLfTIs_N57lRSA-5" value="实例化DownlaodHelper&lt;br&gt;&lt;br&gt;PlayerDownloadNetHelper：用于做网络请求获取下载列表&lt;br&gt;PlayerDownloadTaskHelper：用于对本地下载的Tasks做查询和管理操作（更具体可以看DownloadLogic）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="86.56" y="300" width="316.87" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hM9aK6XLfTIs_N57lRSA-7" value="页面初始化" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="25" y="150" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hM9aK6XLfTIs_N57lRSA-10" value="初始化几个Adapter&lt;br&gt;downloadListAdapter：用于下载列表的展示、分数字剧集和海报剧集&lt;br&gt;definitionAdapter：用于清晰度展示&lt;br&gt;seasonAdapter：用于上面季度选择" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="105.78" y="430" width="277.65" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hM9aK6XLfTIs_N57lRSA-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hM9aK6XLfTIs_N57lRSA-12" target="hM9aK6XLfTIs_N57lRSA-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hM9aK6XLfTIs_N57lRSA-12" value="对当前剧集的信息做相应展示&lt;br&gt;（是否展示季度、展示数字剧集还是海报）" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="197.5" width="230" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="hM9aK6XLfTIs_N57lRSA-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hM9aK6XLfTIs_N57lRSA-14" target="hM9aK6XLfTIs_N57lRSA-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hM9aK6XLfTIs_N57lRSA-14" value="通过PlayerDownloadTaskHelper&lt;br&gt;获取下载列表中已经完成和未完成的任务" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="197.5" width="220" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="hM9aK6XLfTIs_N57lRSA-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hM9aK6XLfTIs_N57lRSA-16" target="hM9aK6XLfTIs_N57lRSA-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hM9aK6XLfTIs_N57lRSA-16" value="刷新下载列表&lt;br&gt;refreshDownloadListAdapter()" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="900" y="197.5" width="190" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="hM9aK6XLfTIs_N57lRSA-18" value="会维护一个Map&amp;lt;cid,DownloadCidBean&amp;gt;&lt;br&gt;如果当前cid在Map中则直接取出&lt;br&gt;否则通过PlayerDownloadNetHelper获取并保存&lt;br&gt;&lt;br&gt;Map会在每次load视频的时候清空，防止持有太多，占内存&lt;br&gt;（其实可以先判断当前cid是否在里面，没有再清空）" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="829.14" y="320" width="331.72" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="hM9aK6XLfTIs_N57lRSA-20" value="PlayerDownloadNetHelper请求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="610" width="245" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hM9aK6XLfTIs_N57lRSA-21" value="&lt;span style=&quot;font-size: 14px&quot;&gt;因为每次只能获取一部分的信息，（似乎）没有直接获取全部信息的参数，所以通过多次请求获取全部。&lt;br&gt;&lt;br&gt;感觉这里可以通过先获取一部分列表，下滑到底部后再次请求。&lt;br&gt;（可以见PlayerRecyclerViewScrollToLastHelper和ShortPlayerRecommendListController）&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="45" y="635" width="395" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="hM9aK6XLfTIs_N57lRSA-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="hM9aK6XLfTIs_N57lRSA-22" target="hM9aK6XLfTIs_N57lRSA-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hM9aK6XLfTIs_N57lRSA-22" value="传入cid、清晰度等相关信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="810" width="165" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hM9aK6XLfTIs_N57lRSA-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="hM9aK6XLfTIs_N57lRSA-23" target="hM9aK6XLfTIs_N57lRSA-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hM9aK6XLfTIs_N57lRSA-23" value="request()" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="322.5" y="805" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hM9aK6XLfTIs_N57lRSA-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;dashed=1;" edge="1" parent="1" source="hM9aK6XLfTIs_N57lRSA-25" target="hM9aK6XLfTIs_N57lRSA-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="835" />
+              <mxPoint x="620" y="906" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hM9aK6XLfTIs_N57lRSA-25" value="等待回调" style="whiteSpace=wrap;html=1;rounded=0;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="501.25" y="807.5" width="78.75" height="53.75" as="geometry" />
+        </mxCell>
+        <mxCell id="hM9aK6XLfTIs_N57lRSA-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="hM9aK6XLfTIs_N57lRSA-27" target="hM9aK6XLfTIs_N57lRSA-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hM9aK6XLfTIs_N57lRSA-27" value="成功" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="808.75" width="60" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hM9aK6XLfTIs_N57lRSA-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="hM9aK6XLfTIs_N57lRSA-28" target="hM9aK6XLfTIs_N57lRSA-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hM9aK6XLfTIs_N57lRSA-28" value="失败" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="880" width="60" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hM9aK6XLfTIs_N57lRSA-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;dashed=1;" edge="1" parent="1" source="hM9aK6XLfTIs_N57lRSA-25" target="hM9aK6XLfTIs_N57lRSA-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="845" as="sourcePoint" />
+            <mxPoint x="660" y="916" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="845" />
+              <mxPoint x="660" y="845" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hM9aK6XLfTIs_N57lRSA-31" value="返回一个空对象" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="770" y="881.25" width="91.72" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hM9aK6XLfTIs_N57lRSA-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="hM9aK6XLfTIs_N57lRSA-35" target="hM9aK6XLfTIs_N57lRSA-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="750" />
+              <mxPoint x="390" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hM9aK6XLfTIs_N57lRSA-38" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="hM9aK6XLfTIs_N57lRSA-37">
+          <mxGeometry x="-0.8838" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hM9aK6XLfTIs_N57lRSA-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="hM9aK6XLfTIs_N57lRSA-35" target="hM9aK6XLfTIs_N57lRSA-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hM9aK6XLfTIs_N57lRSA-41" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="hM9aK6XLfTIs_N57lRSA-40">
+          <mxGeometry x="-0.1976" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hM9aK6XLfTIs_N57lRSA-35" value="是否有下一页" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="780" y="808.75" width="120" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hM9aK6XLfTIs_N57lRSA-39" value="返回封装类PlayerDownloadList" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="970" y="810" width="150" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hM9aK6XLfTIs_N57lRSA-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="hM9aK6XLfTIs_N57lRSA-42" target="hM9aK6XLfTIs_N57lRSA-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hM9aK6XLfTIs_N57lRSA-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="hM9aK6XLfTIs_N57lRSA-42" target="hM9aK6XLfTIs_N57lRSA-49">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="1280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hM9aK6XLfTIs_N57lRSA-42" value="网络请求结果&lt;br&gt;Trpc.VideoDownloadItem" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1070" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hM9aK6XLfTIs_N57lRSA-43" value="数据类" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="55" y="1040" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hM9aK6XLfTIs_N57lRSA-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="hM9aK6XLfTIs_N57lRSA-44" target="hM9aK6XLfTIs_N57lRSA-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hM9aK6XLfTIs_N57lRSA-44" value="&lt;div style=&quot;text-align: center&quot;&gt;请求结果会被封装为&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;PlayerDownloadList&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;返回到Controller中&lt;/div&gt;&lt;br&gt;&lt;pre style=&quot;font-size: 12pt ; background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;#34;arial black&amp;#34;&quot;&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;val &lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;downloadItems&lt;/span&gt;: MutableList&amp;lt;TrpcVideoDownload.VideoDownloadItem&amp;gt;&lt;br&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;var &lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;definitions&lt;/span&gt;: MutableList&amp;lt;Definition&amp;gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;var &lt;/span&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170)&quot;&gt;coverPost&lt;/span&gt;: Poster&lt;/pre&gt;" style="whiteSpace=wrap;html=1;fontSize=14;rounded=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="356.71" y="1015.25" width="666.57" height="167.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hM9aK6XLfTIs_N57lRSA-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="hM9aK6XLfTIs_N57lRSA-49" target="hM9aK6XLfTIs_N57lRSA-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hM9aK6XLfTIs_N57lRSA-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="hM9aK6XLfTIs_N57lRSA-49" target="hM9aK6XLfTIs_N57lRSA-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hM9aK6XLfTIs_N57lRSA-49" value="转为DownloadableVideo" style="whiteSpace=wrap;html=1;fontSize=14;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="1240" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hM9aK6XLfTIs_N57lRSA-51" value="重新封装为&lt;br&gt;&lt;div&gt;DownloadCidBean&lt;/div&gt;&lt;div&gt;方便展示&lt;/div&gt;&lt;div&gt;&lt;pre style=&quot;font-size: 12pt ; background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;#34;arial black&amp;#34;&quot;&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 12pt ; white-space: normal ; color: rgb(204 , 120 , 50)&quot;&gt;val &lt;/span&gt;&lt;span style=&quot;font-size: 12pt ; white-space: normal ; color: rgb(152 , 118 , 170)&quot;&gt;cid&lt;/span&gt;&lt;span style=&quot;font-size: 12pt ; white-space: normal&quot;&gt;: String&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 12pt ; white-space: normal&quot;&gt;val &lt;/span&gt;&lt;span style=&quot;font-size: 12pt ; white-space: normal ; color: rgb(152 , 118 , 170)&quot;&gt;coverPoster&lt;/span&gt;&lt;span style=&quot;color: rgb(169 , 183 , 198) ; font-size: 12pt ; white-space: normal&quot;&gt;: Poster&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 12pt ; white-space: normal&quot;&gt;val &lt;/span&gt;&lt;span style=&quot;font-size: 12pt ; white-space: normal ; color: rgb(152 , 118 , 170)&quot;&gt;downloadItems&lt;/span&gt;&lt;span style=&quot;color: rgb(169 , 183 , 198) ; font-size: 12pt ; white-space: normal&quot;&gt;: List&amp;lt;DownloadableVideo&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 12pt ; white-space: normal&quot;&gt;val &lt;/span&gt;&lt;span style=&quot;font-size: 12pt ; white-space: normal ; color: rgb(152 , 118 , 170)&quot;&gt;definition&lt;/span&gt;&lt;span style=&quot;color: rgb(169 , 183 , 198) ; font-size: 12pt ; white-space: normal&quot;&gt;: List&amp;lt;Definition&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;align=center;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="1005.5" width="439.99" height="189" as="geometry" />
+        </mxCell>
+        <mxCell id="hM9aK6XLfTIs_N57lRSA-54" value="DownloadVideoId&lt;br&gt;主要用于对DownloadTask做equal判断&lt;br&gt;&lt;br&gt;&lt;pre style=&quot;font-size: 12pt ; background-color: rgb(43 , 43 , 43) ; color: rgb(169 , 183 , 198) ; font-family: &amp;#34;arial black&amp;#34;&quot;&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 12pt ; white-space: normal ; color: rgb(204 , 120 , 50)&quot;&gt;val &lt;/span&gt;&lt;span style=&quot;font-size: 12pt ; white-space: normal ; color: rgb(152 , 118 , 170)&quot;&gt;cid&lt;/span&gt;&lt;span style=&quot;font-size: 12pt ; white-space: normal&quot;&gt;: String&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;color: rgb(204 , 120 , 50)&quot;&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 12pt ; white-space: normal&quot;&gt;val &lt;/span&gt;&lt;span style=&quot;font-size: 12pt ; white-space: normal ; color: rgb(152 , 118 , 170)&quot;&gt;vid&lt;/span&gt;&lt;span style=&quot;color: rgb(169 , 183 , 198) ; font-size: 12pt ; white-space: normal&quot;&gt;: String&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="980" y="1402.5" width="220.5" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="hM9aK6XLfTIs_N57lRSA-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="hM9aK6XLfTIs_N57lRSA-55" target="hM9aK6XLfTIs_N57lRSA-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hM9aK6XLfTIs_N57lRSA-55" value="开始下载时会&lt;br&gt;转为VideoDownloadTask&lt;br&gt;进行下载" style="whiteSpace=wrap;html=1;fontSize=14;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="572.5" y="1430" width="265" height="85" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
