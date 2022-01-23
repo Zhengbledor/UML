@@ -1,1 +1,197 @@
-<mxfile host="app.diagrams.net" modified="2022-01-21T10:37:52.592Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" version="16.3.0" etag="Q9yajjGCOtfEQk3wvmDA" type="github"><diagram id="dbgeuC_APuMJBo2UVaMl">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-23T02:46:59.029Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="UuLqKC4yviWAFiREuZ7F" version="16.3.0" type="github">
+  <diagram id="dbgeuC_APuMJBo2UVaMl" name="Page-1">
+    <mxGraphModel dx="3996" dy="1582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-b0AC5-_9nI8135Ya4cU-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-b0AC5-_9nI8135Ya4cU-1" target="-b0AC5-_9nI8135Ya4cU-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-b0AC5-_9nI8135Ya4cU-1" value="&lt;span style=&quot;color: rgb(50 , 50 , 50) ; font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;点击&lt;br&gt;screenShotIcon&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-b0AC5-_9nI8135Ya4cU-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-b0AC5-_9nI8135Ya4cU-2" target="-b0AC5-_9nI8135Ya4cU-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-b0AC5-_9nI8135Ya4cU-2" value="&lt;div class=&quot;mind-clipboard&quot;&gt;ScreenShotManager&lt;div&gt;shotScreen()&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-b0AC5-_9nI8135Ya4cU-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 1;endArrow=none;endFill=0;" edge="1" parent="1" source="-b0AC5-_9nI8135Ya4cU-4" target="-b0AC5-_9nI8135Ya4cU-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-b0AC5-_9nI8135Ya4cU-4" value="等待回调" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="230" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-b0AC5-_9nI8135Ya4cU-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-b0AC5-_9nI8135Ya4cU-7" target="-b0AC5-_9nI8135Ya4cU-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-b0AC5-_9nI8135Ya4cU-7" value="onShotBefore()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-b0AC5-_9nI8135Ya4cU-9" value="做一些初始化工作&lt;br&gt;&lt;br&gt;隐藏播控栏、清空上一次的截图Bitmap" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.52;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="110" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-b0AC5-_9nI8135Ya4cU-10" value="onShotFailed()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="232.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-b0AC5-_9nI8135Ya4cU-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-b0AC5-_9nI8135Ya4cU-11" target="-b0AC5-_9nI8135Ya4cU-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-b0AC5-_9nI8135Ya4cU-11" value="onShotSuccess()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="347.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-b0AC5-_9nI8135Ya4cU-15" value="等待回调" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="310" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-b0AC5-_9nI8135Ya4cU-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-b0AC5-_9nI8135Ya4cU-17" target="-b0AC5-_9nI8135Ya4cU-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-b0AC5-_9nI8135Ya4cU-17" value="为截图添加字幕、LOGO、&lt;br&gt;拉起播控栏" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="104" y="347.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-b0AC5-_9nI8135Ya4cU-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-b0AC5-_9nI8135Ya4cU-19" target="-b0AC5-_9nI8135Ya4cU-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="555" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="330" y="550" />
+              <mxPoint x="330" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-b0AC5-_9nI8135Ya4cU-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="-b0AC5-_9nI8135Ya4cU-19" target="-b0AC5-_9nI8135Ya4cU-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-b0AC5-_9nI8135Ya4cU-19" value="保存截图&lt;br&gt;ScreenShotManager&lt;br&gt;saveToAlbum()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="347.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-b0AC5-_9nI8135Ya4cU-23" value="等待回调" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="490" y="597.5" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-b0AC5-_9nI8135Ya4cU-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 1;endArrow=none;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-130" y="319.58" as="sourcePoint" />
+            <mxPoint x="-90" y="319.58" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-90" y="319.58" />
+              <mxPoint x="-90" y="319.58" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-b0AC5-_9nI8135Ya4cU-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 1;endArrow=none;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-b0AC5-_9nI8135Ya4cU-11" target="-b0AC5-_9nI8135Ya4cU-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-120" y="330" as="sourcePoint" />
+            <mxPoint x="-70" y="330" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-b0AC5-_9nI8135Ya4cU-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" target="-b0AC5-_9nI8135Ya4cU-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="671.25" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-b0AC5-_9nI8135Ya4cU-32" value="onSavaFailed()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-b0AC5-_9nI8135Ya4cU-33" value="onSavaSuccess()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="635" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-b0AC5-_9nI8135Ya4cU-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 1;endArrow=none;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="607.0799999999999" as="sourcePoint" />
+            <mxPoint x="600" y="607.0799999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="607.0799999999999" />
+              <mxPoint x="600" y="607.0799999999999" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-b0AC5-_9nI8135Ya4cU-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 1;endArrow=none;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" source="-b0AC5-_9nI8135Ya4cU-33" target="-b0AC5-_9nI8135Ya4cU-32" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="617.5" as="sourcePoint" />
+            <mxPoint x="620" y="617.5" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-b0AC5-_9nI8135Ya4cU-36" value="保存路径" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="780" y="650" width="110" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-b0AC5-_9nI8135Ya4cU-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="-b0AC5-_9nI8135Ya4cU-40" target="-b0AC5-_9nI8135Ya4cU-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-b0AC5-_9nI8135Ya4cU-40" value="endScreenShot()&lt;br&gt;为展示小窗截图预览框做准备" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="346.25" width="176" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-b0AC5-_9nI8135Ya4cU-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="-b0AC5-_9nI8135Ya4cU-43" target="-b0AC5-_9nI8135Ya4cU-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-b0AC5-_9nI8135Ya4cU-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="-b0AC5-_9nI8135Ya4cU-43" target="-b0AC5-_9nI8135Ya4cU-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="778" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="778" y="250" />
+              <mxPoint x="778" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-b0AC5-_9nI8135Ya4cU-43" value="往PlayerScreenShotAnimationView中添加截图、末位置、并开始动画" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="346.25" width="196" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-b0AC5-_9nI8135Ya4cU-45" value="展示小窗截图预览框" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="957" y="347.5" width="120" height="58.75" as="geometry" />
+        </mxCell>
+        <mxCell id="-b0AC5-_9nI8135Ya4cU-47" value="等待回调" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="748" y="187.51" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-b0AC5-_9nI8135Ya4cU-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 1;endArrow=none;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="-b0AC5-_9nI8135Ya4cU-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="197.07999999999993" as="sourcePoint" />
+            <mxPoint x="850" y="197.07999999999993" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-b0AC5-_9nI8135Ya4cU-55" value="动画结束后再往小窗中添加截图" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="960" y="168.13" width="120" height="58.75" as="geometry" />
+        </mxCell>
+        <mxCell id="-b0AC5-_9nI8135Ya4cU-56" value="" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.42;rotation=-180;size=30;position=0.19;" vertex="1" parent="1">
+          <mxGeometry x="790" y="692.5" width="146" height="112.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-b0AC5-_9nI8135Ya4cU-57" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: normal; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255); text-decoration: none; display: inline; float: none;&quot;&gt;路径保存后才能进行点击进入到截图分享的页面&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="790" y="731.25" width="142" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-b0AC5-_9nI8135Ya4cU-60" value="截图相关类" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-530" y="390" width="440" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="-b0AC5-_9nI8135Ya4cU-63" value="PlayerScreenShotController&#xa;截图预览浮层显示控制、截图控制&#xa;&#xa;PlayerScreenShotButtonView&#xa;截图按钮类、涉及一些点击逻辑&#xa;&#xa;ScreenShotManager&#xa;实现具体的截图和保存截图&#xa;&#xa;PlayerScreenShotAnimationView&#xa;截图从全屏到局部的动画、音效" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=16;" vertex="1" parent="-b0AC5-_9nI8135Ya4cU-60">
+          <mxGeometry y="30" width="440" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="-b0AC5-_9nI8135Ya4cU-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;endArrow=classic;endFill=1;" edge="1" parent="1" source="-b0AC5-_9nI8135Ya4cU-64" target="-b0AC5-_9nI8135Ya4cU-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-b0AC5-_9nI8135Ya4cU-64" value="点击小屏预览框" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="872.5" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-b0AC5-_9nI8135Ya4cU-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;endArrow=classic;endFill=1;" edge="1" parent="1" source="-b0AC5-_9nI8135Ya4cU-65" target="-b0AC5-_9nI8135Ya4cU-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-b0AC5-_9nI8135Ya4cU-65" value="发送ControllerShowEvent&lt;br&gt;和&lt;br&gt;ScreenShotShareFilePathEvent" style="whiteSpace=wrap;html=1;fontSize=16;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-307.5" y="870" width="295" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="-b0AC5-_9nI8135Ya4cU-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;endArrow=classic;endFill=1;" edge="1" parent="1" source="-b0AC5-_9nI8135Ya4cU-67" target="-b0AC5-_9nI8135Ya4cU-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-b0AC5-_9nI8135Ya4cU-67" value="PlayerScreenShotSharePanelController&lt;br&gt;展示View，并保存截图路径" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="60" y="871.5" width="370" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="-b0AC5-_9nI8135Ya4cU-70" value="分享相关类" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="1010" width="440" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="-b0AC5-_9nI8135Ya4cU-71" value="PlayerScreenShotSharePanelController&#xa;截图大屏显示控制、分享信息获取&#xa;&#xa;ScreenShotSharePanelView&#xa;截图分享视图&#xa;&#xa;LWShareAdapter&#xa;分享recyclerView的adapter&#xa;&#xa;ScreenShotShareImp&#xa;将controller中相关信息通过借口的方式传递给adapter中&#xa;&#xa;ShareImageBeanUtils&#xa;获取分享渠道和点击回调" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=16;" vertex="1" parent="-b0AC5-_9nI8135Ya4cU-70">
+          <mxGeometry y="30" width="440" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="-b0AC5-_9nI8135Ya4cU-72" value="为视图添加adapter和ScreenShotShareImp接口" style="whiteSpace=wrap;html=1;fontSize=16;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="881.25" width="210" height="52.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
